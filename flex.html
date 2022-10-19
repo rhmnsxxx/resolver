@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .anak1 {
+            background-color: salmon;
+            width: 100px;
+            height: 100px;
+        }
+
+        .anak2 {
+            background-color: tomato;
+            width: 100px;
+            height: 100px;
+        }
+
+        .anak3 {
+            background-color: magenta;
+            width: 100px;
+            height: 100px;
+            /* digawe mengatur anak 3 dari induk ke tengah */
+            align-self: 
+        }
+
+        .parent {
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="anak1"></div>
+        <div class="anak2"></div>
+        <div class="anak3"></div>
+    </div>
+</body>
+
+</html>
